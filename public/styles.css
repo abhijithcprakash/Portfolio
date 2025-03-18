@@ -1,103 +1,26 @@
-html{background-color:black;}
-
-h1{color: rgb(0, 247, 255);}
-
-h3{color: red;}
-
-
-
-li{color: white;}
-
-.bluergb-text{
-    color: rgb(0, 247, 255);
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 
-.note{
-    color: blueviolet;
-    font-size: 20px;
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#id-selector-demo{
-    color: greenyellow;
+.pad-for-center{
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
-a[value="5"]{
-    color: orangered;
+p{
+    text-align: justify;  
 }
 
-*{
-    text-align: left;
-}
 
-#pixel {
-    font-size: 20px;
-}
-
-#point {
-    font-size: 20pt;
-}
-
-#em {
-    font-size: 1em;
-}
-
-#rem {
-    font-size: 1rem;
-}
-
-footer{
-    font-size: 12pt;
-}
-
-/* -------------------------------------------------------------------------- */
-#main-intro{
-    margin-left: 20px;
-    width: 250px;
-}
-
-#profile{
-    margin-left: 20px;
-    width: 150px;
-}
-
-h2{color: yellow;
-    margin-left: 20px;}
-
-p{color: rgb(0, 247, 255);
-    margin: 0px;
-    padding: 20px;
-    text-align: justify;
-    width: 750px;
-}
-        
-#p{color: rgb(0, 247, 255);
-    margin: 0px;
-    padding: 0px;
-    text-align: justify;
-}
-
-#p1{color: rgb(0, 247, 255);
-    text-align: justify;
-    width: 800px;
-}
-
-.h1{
-    font-size: 3rem;
-    margin-left: 25%;
-    width: 50%;
-}
-
-.poster {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 100px;
-    color: white;
-    font-family: "Libre Baskerville", serif;
+h2{
     text-align: center;
-}
-
-.motivation-img{
-    border: 5px solid black;
-    width: 100%;
 }
